@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.searchInput {
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+}
+.input {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input label > i {
+  font-size: 35px;
+  font-weight: 800;
+  margin-inline: 20px;
+}
+.input input {
+  width: 50%;
+  height: 80%;
+  border-radius: 50px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.check {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check input {
+  padding: 10px;
+  width: 3%;
+  height: 40%;
+}
+.check label {
+  font-size: 24px;
+}
+.showtable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.showtable table {
+  width: 90%;
+  border: 2px solid lightgray;
+  font-size: 30px;
+}
+tbody > tr > td {
+  text-align: center;
+  padding: 10px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 20px;
+  padding-inline: 40px;
+  border: 2px solid blue;
+  border-radius: 50px;
+  margin-block: 20px;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  font-size: 24px;
+  color: blue;
+}
+

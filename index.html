@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search filter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="searchInput">
+            <div class="input">
+                <input type="text" id="search" value="" placeholder="Search......">
+                <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </div>
+            <div class="check">
+                <!-- <input type="checkbox" class="checkbox" name="selectAll" id="selectAll" onchange="myfunction(this)">
+                <label for="selectAll">Select All</label> -->
+                <input type="checkbox" class="checkbox" name="name" id="name">
+                <label for="name">Name</label>
+                <input type="checkbox" class="checkbox" name="language" id="language">
+                <label for="language">language</label>
+                <input type="checkbox" class="checkbox" name="id" id="id">
+                <label for="id">Id</label>
+                <input type="checkbox" class="checkbox" name="bio" id="bio">
+                <label for="bio">Bio</label>
+                <input type="checkbox" class="checkbox" name="version" id="version">
+                <label for="version">Version</label>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="showtable">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Language</th>
+                        <th>Id</th>
+                        <th>Bio</th>
+                        <th>Version</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="btn">
+            <div class="button prev" onclick="moreContent()">
+                <a href="#">Load More</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
